@@ -1,5 +1,5 @@
 <div align="center">
- <img width="1584" height="396" alt="RAG Architecture Banner" src="YOUR_BANNER_IMAGE_URL" />
+ <img width="1584" height="396" alt="Image" src="https://github.com/user-attachments/assets/70569313-7e4e-4950-a0b4-2e2681336c9f" />
 </div>
 
 <h1 align="center">Enterprise RAG Intelligence Platform</h1>
@@ -143,13 +143,13 @@ To eliminate the "loading..." delay, the FastAPI backend uses `StreamingResponse
 ## 8. UI Showcase
 
 <div align="center">
-<img width="80%" alt="Chat Interface with Citations" src="YOUR_CHAT_SCREENSHOT_URL" />
+<<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/d4655d1a-d3ca-4e90-948f-042dc56f76aa" />
 <br><sub>Streaming AI responses with transparent, expandable source citations.</sub>
 </div>
 
 <br>
 <div align="center">
-<img width="80%" alt="Document Upload UI" src="YOUR_UPLOAD_SCREENSHOT_URL" />
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/c07b74b6-4238-45cc-86f8-7a1a46a93c18" />
 <br><sub>Drag-and-drop ingestion with background processing.</sub>
 </div>
 
