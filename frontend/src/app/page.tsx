@@ -34,7 +34,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex h-screen overflow-hidden">
+    <main className="flex h-screen overflow-hidden bg-red-500">
       {/* Sidebar */}
       <Sidebar onDocumentCountChange={handleDocumentCountChange} />
 

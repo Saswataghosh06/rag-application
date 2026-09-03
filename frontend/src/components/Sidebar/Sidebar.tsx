@@ -15,7 +15,6 @@ export function Sidebar({ onDocumentCountChange }: SidebarProps) {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const { documents, isLoading, isUploading, uploadDocument, deleteDocument, refreshDocuments } = useDocuments();
 
-  // Notify parent of document count changes
   const handleUpload = async (file: File) => {
     const result = await uploadDocument(file);
     onDocumentCountChange(documents.length + 1);
@@ -29,15 +28,20 @@ export function Sidebar({ onDocumentCountChange }: SidebarProps) {
 
   return (
     <div className={cn(
-      'flex flex-col border-r border-surface-200 bg-surface-50 transition-all duration-300',
+      'relative flex flex-col bg-white border-r border-surface-200 transition-all duration-300 z-10',
       isCollapsed ? 'w-16' : 'w-80'
     )}>
-      {/* Header */}
-      <div className="flex items-center justify-between border-b border-surface-200 p-4">
+      {/* Premium Header */}
+      <div className="flex items-center justify-between border-b border-surface-200 px-4 py-4 bg-surface-50/50">
         {!isCollapsed && (
-          <div className="flex items-center gap-2">
-            <FileStack className="h-5 w-5 text-brand-600" />
-            <h2 className="font-semibold text-surface-800">Documents</h2>
+          <div className="flex items-center gap-2.5">
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-600 text-white shadow-glow">
+              <FileStack className="h-5 w-5" />
+            </div>
+            <div>
+              <h2 className="text-sm font-bold text-surface-800 tracking-tight">Knowledge Base</h2>
+              <p className="text-[10px] text-surface-400 font-medium uppercase tracking-wider">Enterprise RAG</p>
+            </div>
           </div>
         )}
         <button
@@ -49,7 +53,7 @@ export function Sidebar({ onDocumentCountChange }: SidebarProps) {
       </div>
 
       {!isCollapsed && (
-        <div className="flex-1 overflow-y-auto p-4 space-y-6">
+        <div className="flex-1 overflow-y-auto p-4 space-y-6 scrollbar-thin">
           {/* Upload section */}
           <DocumentUpload onUpload={handleUpload} isUploading={isUploading} />
 
@@ -64,9 +68,12 @@ export function Sidebar({ onDocumentCountChange }: SidebarProps) {
       )}
 
       {isCollapsed && (
-        <div className="flex flex-col items-center py-4">
-          <FileStack className="h-5 w-5 text-surface-400" />
-          <span className="mt-1 text-xs text-surface-400">{documents.length}</span>
+        <div className="flex flex-col items-center py-4 space-y-4">
+          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand-600 text-white shadow-glow">
+            <FileStack className="h-5 w-5" />
+          </div>
+          <div className="h-px w-8 bg-surface-200"></div>
+          <span className="text-[10px] font-bold text-surface-400">{documents.length}</span>
         </div>
       )}
     </div>
