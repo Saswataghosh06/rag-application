@@ -1,0 +1,35 @@
+# Dependencies
+backend/venv/
+frontend/node_modules/
+
+# Environment Variables 
+.env
+.env.local
+backend/.env
+frontend/.env.local
+
+# Local Vector Database (Too large for GitHub, must be generated locally)
+backend/qdrant_data/
+
+# Next.js Build Files
+frontend/.next/
+frontend/out/
+
+# Python Cache 
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+venv/
+node_modules/
