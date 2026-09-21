@@ -1,4 +1,20 @@
-# System Architecture & Engineering Design
+<div align="center">
+ <img width="1584" height="396" alt="Image" src="https://github.com/user-attachments/assets/70569313-7e4e-4950-a0b4-2e2681336c9f" />
+</div>
+
+<h1 align="center">Enterprise RAG Intelligence Platform</h1>
+<h3 align="center">System Architecture & Engineering Design</h3>
+
+<p align="center">
+  <img alt="status" src="https://img.shields.io/badge/status-portfolio_case_study-1E56C7">
+  <img alt="stack" src="https://img.shields.io/badge/stack-Next.js_%7C_FastAPI_%7C_Qdrant_%7C_Ollama-1E56C7">
+  <img alt="ai" src="https://img.shields.io/badge/LLM-Llama3_%7C_GPT--4o-12A879">
+  <img alt="retrieval" src="https://img.shields.io/badge/retrieval-SSE_Streaming_%7C_Semantic_Chunking-8B98AE">
+</p>
+
+<p align="center"><b>Saswata Ghosh</b><br>
+<a href="https://github.com/Saswataghosh06/rag-application">GitHub Repo</a> · <a href="https://www.linkedin.com/in/saswata-ghosh06/">LinkedIn</a> · <a href="mailto:saswataghosh2022@gmail.com">Email</a></p>
+
 
 > **The headline:** The architecture is built on a strict separation of concerns. The frontend handles UI state and stream consumption, while the backend abstracts LLM, Embedding, and Vector providers behind interfaces, allowing the system to pivot between cloud (OpenAI) and local (Ollama/HuggingFace) deployments via a single `.env` variable.
 
