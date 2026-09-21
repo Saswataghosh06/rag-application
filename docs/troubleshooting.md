@@ -1,4 +1,19 @@
-# Engineering Debugging & Environment Setup Log
+<div align="center">
+ <img width="1584" height="396" alt="Image" src="https://github.com/user-attachments/assets/70569313-7e4e-4950-a0b4-2e2681336c9f" />
+</div>
+
+<h1 align="center">Enterprise RAG Intelligence Platform</h1>
+<h3 align="center">Engineering Debugging & Environment Setup Log</h3>
+
+<p align="center">
+  <img alt="status" src="https://img.shields.io/badge/status-portfolio_case_study-1E56C7">
+  <img alt="stack" src="https://img.shields.io/badge/stack-Next.js_%7C_FastAPI_%7C_Qdrant_%7C_Ollama-1E56C7">
+  <img alt="ai" src="https://img.shields.io/badge/LLM-Llama3_%7C_GPT--4o-12A879">
+  <img alt="retrieval" src="https://img.shields.io/badge/retrieval-SSE_Streaming_%7C_Semantic_Chunking-8B98AE">
+</p>
+
+<p align="center"><b>Saswata Ghosh</b><br>
+<a href="https://github.com/Saswataghosh06/rag-application">GitHub Repo</a> · <a href="https://www.linkedin.com/in/saswata-ghosh06/">LinkedIn</a> · <a href="mailto:saswataghosh2022@gmail.com">Email</a></p>
 
 > **The headline:** Setting up a full-stack Async Python + Next.js environment is rarely seamless. This document logs the actual engineering challenges encountered during the development of this platform and the exact solutions applied. Documenting these fixes proves the system was built and tested from the ground up.
 
