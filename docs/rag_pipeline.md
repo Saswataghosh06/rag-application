@@ -1,4 +1,19 @@
-# The RAG Pipeline: Chunking, Retrieval, & Generation
+<div align="center">
+ <img width="1584" height="396" alt="Image" src="https://github.com/user-attachments/assets/70569313-7e4e-4950-a0b4-2e2681336c9f" />
+</div>
+
+<h1 align="center">Enterprise RAG Intelligence Platform</h1>
+<h3 align="center">The RAG Pipeline: Chunking, Retrieval, & Generation</h3>
+
+<p align="center">
+  <img alt="status" src="https://img.shields.io/badge/status-portfolio_case_study-1E56C7">
+  <img alt="stack" src="https://img.shields.io/badge/stack-Next.js_%7C_FastAPI_%7C_Qdrant_%7C_Ollama-1E56C7">
+  <img alt="ai" src="https://img.shields.io/badge/LLM-Llama3_%7C_GPT--4o-12A879">
+  <img alt="retrieval" src="https://img.shields.io/badge/retrieval-SSE_Streaming_%7C_Semantic_Chunking-8B98AE">
+</p>
+
+<p align="center"><b>Saswata Ghosh</b><br>
+<a href="https://github.com/Saswataghosh06/rag-application">GitHub Repo</a> · <a href="https://www.linkedin.com/in/saswata-ghosh06/">LinkedIn</a> · <a href="mailto:saswataghosh2022@gmail.com">Email</a></p>
 
 > **The headline:** A naive RAG implementation will split documents randomly, retrieve the top results, and trust the LLM to figure it out. This platform uses a custom recursive chunking algorithm, metadata-rich vector payloads, cosine similarity score thresholding, and strict prompt engineering to minimize hallucinations and maximize citation accuracy.
 
